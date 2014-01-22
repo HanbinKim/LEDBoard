@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001D8D51188FBCA40051EAEA /* HeartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 001D8D50188FBCA40051EAEA /* HeartViewController.m */; };
+		001D8D53188FBE8B0051EAEA /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 001D8D52188FBE8B0051EAEA /* 02.png */; };
+		001D8D55188FBE8F0051EAEA /* 06.png in Resources */ = {isa = PBXBuildFile; fileRef = 001D8D54188FBE8F0051EAEA /* 06.png */; };
+		001D8D57188FBE940051EAEA /* 07.png in Resources */ = {isa = PBXBuildFile; fileRef = 001D8D56188FBE940051EAEA /* 07.png */; };
+		001D8D59188FBFA30051EAEA /* 09.png in Resources */ = {isa = PBXBuildFile; fileRef = 001D8D58188FBFA30051EAEA /* 09.png */; };
 		00ABE08B188F618B000514CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00ABE08A188F618B000514CC /* Foundation.framework */; };
 		00ABE08D188F618B000514CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00ABE08C188F618B000514CC /* CoreGraphics.framework */; };
 		00ABE08F188F618B000514CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00ABE08E188F618B000514CC /* UIKit.framework */; };
@@ -34,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		001D8D4F188FBCA40051EAEA /* HeartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartViewController.h; sourceTree = "<group>"; };
+		001D8D50188FBCA40051EAEA /* HeartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartViewController.m; sourceTree = "<group>"; };
+		001D8D52188FBE8B0051EAEA /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		001D8D54188FBE8F0051EAEA /* 06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 06.png; sourceTree = "<group>"; };
+		001D8D56188FBE940051EAEA /* 07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 07.png; sourceTree = "<group>"; };
+		001D8D58188FBFA30051EAEA /* 09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 09.png; sourceTree = "<group>"; };
 		00ABE087188F618B000514CC /* LEDBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEDBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00ABE08A188F618B000514CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		00ABE08C188F618B000514CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,6 +123,10 @@
 		00ABE090188F618B000514CC /* LEDBoard */ = {
 			isa = PBXGroup;
 			children = (
+				001D8D52188FBE8B0051EAEA /* 02.png */,
+				001D8D54188FBE8F0051EAEA /* 06.png */,
+				001D8D56188FBE940051EAEA /* 07.png */,
+				001D8D58188FBFA30051EAEA /* 09.png */,
 				00ABE099188F618B000514CC /* AppDelegate.h */,
 				00ABE09A188F618B000514CC /* AppDelegate.m */,
 				00ABE09C188F618B000514CC /* Main.storyboard */,
@@ -119,6 +134,8 @@
 				00ABE0A0188F618B000514CC /* ViewController.m */,
 				00ABE0A2188F618B000514CC /* Images.xcassets */,
 				00ABE091188F618B000514CC /* Supporting Files */,
+				001D8D4F188FBCA40051EAEA /* HeartViewController.h */,
+				001D8D50188FBCA40051EAEA /* HeartViewController.m */,
 			);
 			path = LEDBoard;
 			sourceTree = "<group>";
@@ -228,9 +245,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				001D8D57188FBE940051EAEA /* 07.png in Resources */,
+				001D8D55188FBE8F0051EAEA /* 06.png in Resources */,
 				00ABE0A3188F618B000514CC /* Images.xcassets in Resources */,
+				001D8D59188FBFA30051EAEA /* 09.png in Resources */,
 				00ABE095188F618B000514CC /* InfoPlist.strings in Resources */,
 				00ABE09E188F618B000514CC /* Main.storyboard in Resources */,
+				001D8D53188FBE8B0051EAEA /* 02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +273,7 @@
 				00ABE0A1188F618B000514CC /* ViewController.m in Sources */,
 				00ABE09B188F618B000514CC /* AppDelegate.m in Sources */,
 				00ABE097188F618B000514CC /* main.m in Sources */,
+				001D8D51188FBCA40051EAEA /* HeartViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

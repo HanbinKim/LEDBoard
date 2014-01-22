@@ -17,6 +17,8 @@
     NSTimer *_timer2;
     BOOL _onoff;
     UIColor *color;
+    int x1;
+    int y1;
 }
 @property (strong, nonatomic) IBOutlet UILabel *label;
 @property (strong, nonatomic) IBOutlet UIView *colorView;
@@ -132,13 +134,13 @@
     BOOL isOn = ((UISwitch *)sender).on;
     if(isOn)
     {
-
         _timer2 = [NSTimer scheduledTimerWithTimeInterval:1+(x/400) target:self selector:@selector(moveText:) userInfo:nil repeats:YES];
-      
     }
     else
     {
         [_timer2 invalidate];
+        self.label.center=CGPointMake(x1, y1);
+
     }
 
     
@@ -158,7 +160,7 @@
 {
     if(_isLeft)
     {
-    [UIView animateWithDuration:2 animations:^()
+    [UIView animateWithDuration:3 animations:^()
      {
          self.label.center = CGPointMake(-x/2, 160);
      }];
@@ -182,7 +184,8 @@
     [self.label sizeToFit];
     [self.textField resignFirstResponder];
     x = self.label.frame.size.width;
-
+    x1 = self.label.center.x;
+    y1 = self.label.center.y;
     return YES;
 
 }
