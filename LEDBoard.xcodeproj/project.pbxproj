@@ -464,6 +464,7 @@
 				00ABE0BB188F618B000514CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00ABE0BC188F618B000514CC /* Build configuration list for PBXNativeTarget "LEDBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +473,7 @@
 				00ABE0BE188F618B000514CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
