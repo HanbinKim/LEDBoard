@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00ABE08B188F618B000514CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00ABE08A188F618B000514CC /* Foundation.framework */; };
+		00ABE08D188F618B000514CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00ABE08C188F618B000514CC /* CoreGraphics.framework */; };
+		00ABE08F188F618B000514CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00ABE08E188F618B000514CC /* UIKit.framework */; };
+		00ABE095188F618B000514CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00ABE093188F618B000514CC /* InfoPlist.strings */; };
+		00ABE097188F618B000514CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ABE096188F618B000514CC /* main.m */; };
+		00ABE09B188F618B000514CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ABE09A188F618B000514CC /* AppDelegate.m */; };
+		00ABE09E188F618B000514CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00ABE09C188F618B000514CC /* Main.storyboard */; };
+		00ABE0A1188F618B000514CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ABE0A0188F618B000514CC /* ViewController.m */; };
+		00ABE0A3188F618B000514CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00ABE0A2188F618B000514CC /* Images.xcassets */; };
+		00ABE0AA188F618B000514CC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00ABE0A9188F618B000514CC /* XCTest.framework */; };
+		00ABE0AB188F618B000514CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00ABE08A188F618B000514CC /* Foundation.framework */; };
+		00ABE0AC188F618B000514CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00ABE08E188F618B000514CC /* UIKit.framework */; };
+		00ABE0B4188F618B000514CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00ABE0B2188F618B000514CC /* InfoPlist.strings */; };
+		00ABE0B6188F618B000514CC /* LEDBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ABE0B5188F618B000514CC /* LEDBoardTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00ABE0AD188F618B000514CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00ABE07F188F618B000514CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00ABE086188F618B000514CC;
+			remoteInfo = LEDBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00ABE087188F618B000514CC /* LEDBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEDBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00ABE08A188F618B000514CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00ABE08C188F618B000514CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		00ABE08E188F618B000514CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		00ABE092188F618B000514CC /* LEDBoard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LEDBoard-Info.plist"; sourceTree = "<group>"; };
+		00ABE094188F618B000514CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00ABE096188F618B000514CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00ABE098188F618B000514CC /* LEDBoard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LEDBoard-Prefix.pch"; sourceTree = "<group>"; };
+		00ABE099188F618B000514CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00ABE09A188F618B000514CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00ABE09D188F618B000514CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00ABE09F188F618B000514CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00ABE0A0188F618B000514CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00ABE0A2188F618B000514CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		00ABE0A8188F618B000514CC /* LEDBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEDBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00ABE0A9188F618B000514CC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		00ABE0B1188F618B000514CC /* LEDBoardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LEDBoardTests-Info.plist"; sourceTree = "<group>"; };
+		00ABE0B3188F618B000514CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00ABE0B5188F618B000514CC /* LEDBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEDBoardTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00ABE084188F618B000514CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00ABE08D188F618B000514CC /* CoreGraphics.framework in Frameworks */,
+				00ABE08F188F618B000514CC /* UIKit.framework in Frameworks */,
+				00ABE08B188F618B000514CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00ABE0A5188F618B000514CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00ABE0AA188F618B000514CC /* XCTest.framework in Frameworks */,
+				00ABE0AC188F618B000514CC /* UIKit.framework in Frameworks */,
+				00ABE0AB188F618B000514CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00ABE07E188F618B000514CC = {
+			isa = PBXGroup;
+			children = (
+				00ABE090188F618B000514CC /* LEDBoard */,
+				00ABE0AF188F618B000514CC /* LEDBoardTests */,
+				00ABE089188F618B000514CC /* Frameworks */,
+				00ABE088188F618B000514CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00ABE088188F618B000514CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00ABE087188F618B000514CC /* LEDBoard.app */,
+				00ABE0A8188F618B000514CC /* LEDBoardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00ABE089188F618B000514CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00ABE08A188F618B000514CC /* Foundation.framework */,
+				00ABE08C188F618B000514CC /* CoreGraphics.framework */,
+				00ABE08E188F618B000514CC /* UIKit.framework */,
+				00ABE0A9188F618B000514CC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00ABE090188F618B000514CC /* LEDBoard */ = {
+			isa = PBXGroup;
+			children = (
+				00ABE099188F618B000514CC /* AppDelegate.h */,
+				00ABE09A188F618B000514CC /* AppDelegate.m */,
+				00ABE09C188F618B000514CC /* Main.storyboard */,
+				00ABE09F188F618B000514CC /* ViewController.h */,
+				00ABE0A0188F618B000514CC /* ViewController.m */,
+				00ABE0A2188F618B000514CC /* Images.xcassets */,
+				00ABE091188F618B000514CC /* Supporting Files */,
+			);
+			path = LEDBoard;
+			sourceTree = "<group>";
+		};
+		00ABE091188F618B000514CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00ABE092188F618B000514CC /* LEDBoard-Info.plist */,
+				00ABE093188F618B000514CC /* InfoPlist.strings */,
+				00ABE096188F618B000514CC /* main.m */,
+				00ABE098188F618B000514CC /* LEDBoard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00ABE0AF188F618B000514CC /* LEDBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				00ABE0B5188F618B000514CC /* LEDBoardTests.m */,
+				00ABE0B0188F618B000514CC /* Supporting Files */,
+			);
+			path = LEDBoardTests;
+			sourceTree = "<group>";
+		};
+		00ABE0B0188F618B000514CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00ABE0B1188F618B000514CC /* LEDBoardTests-Info.plist */,
+				00ABE0B2188F618B000514CC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00ABE086188F618B000514CC /* LEDBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00ABE0B9188F618B000514CC /* Build configuration list for PBXNativeTarget "LEDBoard" */;
+			buildPhases = (
+				00ABE083188F618B000514CC /* Sources */,
+				00ABE084188F618B000514CC /* Frameworks */,
+				00ABE085188F618B000514CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LEDBoard;
+			productName = LEDBoard;
+			productReference = 00ABE087188F618B000514CC /* LEDBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00ABE0A7188F618B000514CC /* LEDBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00ABE0BC188F618B000514CC /* Build configuration list for PBXNativeTarget "LEDBoardTests" */;
+			buildPhases = (
+				00ABE0A4188F618B000514CC /* Sources */,
+				00ABE0A5188F618B000514CC /* Frameworks */,
+				00ABE0A6188F618B000514CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00ABE0AE188F618B000514CC /* PBXTargetDependency */,
+			);
+			name = LEDBoardTests;
+			productName = LEDBoardTests;
+			productReference = 00ABE0A8188F618B000514CC /* LEDBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00ABE07F188F618B000514CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "SDT-1";
+				TargetAttributes = {
+					00ABE0A7188F618B000514CC = {
+						TestTargetID = 00ABE086188F618B000514CC;
+					};
+				};
+			};
+			buildConfigurationList = 00ABE082188F618B000514CC /* Build configuration list for PBXProject "LEDBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00ABE07E188F618B000514CC;
+			productRefGroup = 00ABE088188F618B000514CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00ABE086188F618B000514CC /* LEDBoard */,
+				00ABE0A7188F618B000514CC /* LEDBoardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00ABE085188F618B000514CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00ABE0A3188F618B000514CC /* Images.xcassets in Resources */,
+				00ABE095188F618B000514CC /* InfoPlist.strings in Resources */,
+				00ABE09E188F618B000514CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00ABE0A6188F618B000514CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00ABE0B4188F618B000514CC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00ABE083188F618B000514CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00ABE0A1188F618B000514CC /* ViewController.m in Sources */,
+				00ABE09B188F618B000514CC /* AppDelegate.m in Sources */,
+				00ABE097188F618B000514CC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00ABE0A4188F618B000514CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00ABE0B6188F618B000514CC /* LEDBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00ABE0AE188F618B000514CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00ABE086188F618B000514CC /* LEDBoard */;
+			targetProxy = 00ABE0AD188F618B000514CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00ABE093188F618B000514CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00ABE094188F618B000514CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		00ABE09C188F618B000514CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00ABE09D188F618B000514CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00ABE0B2188F618B000514CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00ABE0B3188F618B000514CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00ABE0B7188F618B000514CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00ABE0B8188F618B000514CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00ABE0BA188F618B000514CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LEDBoard/LEDBoard-Prefix.pch";
+				INFOPLIST_FILE = "LEDBoard/LEDBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		00ABE0BB188F618B000514CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LEDBoard/LEDBoard-Prefix.pch";
+				INFOPLIST_FILE = "LEDBoard/LEDBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		00ABE0BD188F618B000514CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LEDBoard.app/LEDBoard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LEDBoard/LEDBoard-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LEDBoardTests/LEDBoardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		00ABE0BE188F618B000514CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LEDBoard.app/LEDBoard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LEDBoard/LEDBoard-Prefix.pch";
+				INFOPLIST_FILE = "LEDBoardTests/LEDBoardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00ABE082188F618B000514CC /* Build configuration list for PBXProject "LEDBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00ABE0B7188F618B000514CC /* Debug */,
+				00ABE0B8188F618B000514CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00ABE0B9188F618B000514CC /* Build configuration list for PBXNativeTarget "LEDBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00ABE0BA188F618B000514CC /* Debug */,
+				00ABE0BB188F618B000514CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00ABE0BC188F618B000514CC /* Build configuration list for PBXNativeTarget "LEDBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00ABE0BD188F618B000514CC /* Debug */,
+				00ABE0BE188F618B000514CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00ABE07F188F618B000514CC /* Project object */;
+}
