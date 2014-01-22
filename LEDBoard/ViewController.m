@@ -8,7 +8,10 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController () {
+    BOOL _isRed;
+    NSTimer *_timer;
+}
 @property (strong, nonatomic) IBOutlet UILabel *label;
 @property (strong, nonatomic) IBOutlet UIButton *btn1;
 
@@ -19,18 +22,21 @@
 
 - (IBAction)btn1:(id)sender
 {
+    if (_timer == nil) {
+        _timer = [NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(changeColor:) userInfo:nil repeats:YES];
+    } else {
+        [_timer invalidate];
+        _timer = nil;
+    }
+}
 
-    for(int i=0;i<100;i++)
-    {
-
-        [self performSelector:@selector(red) withObject:nil afterDelay:10.0];
-        NSLog(@"레드셀렉터");
-        self.label.textColor = [UIColor redColor];
-        [self.label reloadInputViews];
-        [self performSelector:@selector(blue) withObject:nil afterDelay:10.0];
+- (void)changeColor:(NSTimer *)timer {
+    if (_isRed) {
         self.label.textColor = [UIColor blueColor];
-        NSLog(@"블루셀렉터");
-        [self.label reloadInputViews];
+        _isRed = NO;
+    } else {
+        self.label.textColor = [UIColor redColor];
+        _isRed = YES;
     }
 }
 - (void)red
