@@ -26,6 +26,7 @@
 		00ABE0AC188F618B000514CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00ABE08E188F618B000514CC /* UIKit.framework */; };
 		00ABE0B4188F618B000514CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00ABE0B2188F618B000514CC /* InfoPlist.strings */; };
 		00ABE0B6188F618B000514CC /* LEDBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ABE0B5188F618B000514CC /* LEDBoardTests.m */; };
+		40C1D4A518929CC90028D9B1 /* LB.png in Resources */ = {isa = PBXBuildFile; fileRef = 40C1D4A418929CC90028D9B1 /* LB.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		00ABE0B1188F618B000514CC /* LEDBoardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LEDBoardTests-Info.plist"; sourceTree = "<group>"; };
 		00ABE0B3188F618B000514CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00ABE0B5188F618B000514CC /* LEDBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEDBoardTests.m; sourceTree = "<group>"; };
+		40C1D4A418929CC90028D9B1 /* LB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LB.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 		00ABE090188F618B000514CC /* LEDBoard */ = {
 			isa = PBXGroup;
 			children = (
+				40C1D4A418929CC90028D9B1 /* LB.png */,
 				001D8D52188FBE8B0051EAEA /* 02.png */,
 				001D8D54188FBE8F0051EAEA /* 06.png */,
 				001D8D56188FBE940051EAEA /* 07.png */,
@@ -252,6 +255,7 @@
 				00ABE095188F618B000514CC /* InfoPlist.strings in Resources */,
 				00ABE09E188F618B000514CC /* Main.storyboard in Resources */,
 				001D8D53188FBE8B0051EAEA /* 02.png in Resources */,
+				40C1D4A518929CC90028D9B1 /* LB.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
